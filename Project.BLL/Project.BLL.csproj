@@ -15,4 +15,10 @@
     <ProjectReference Include="..\Project.DAL\Project.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ManagerServices\Abstracts\" />
+    <Folder Include="ManagerServices\Concretes\" />
+    <Folder Include="ServiceInjection\" />
+  </ItemGroup>
+
 </Project>
