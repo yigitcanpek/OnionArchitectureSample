@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Entities", "Project.Entities\Project.Entities.csproj", "{25988B5A-76A6-4BDC-B332-8AF6C7AF5EE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Entities", "Project.Entities\Project.Entities.csproj", "{25988B5A-76A6-4BDC-B332-8AF6C7AF5EE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.MAP", "Project.MAP\Project.MAP.csproj", "{D25A48AC-B31A-48D5-8782-E71A6F033FE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.MAP", "Project.MAP\Project.MAP.csproj", "{D25A48AC-B31A-48D5-8782-E71A6F033FE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.DAL", "Project.DAL\Project.DAL.csproj", "{519B81F2-4938-4D77-9705-08318F75B15D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.DAL", "Project.DAL\Project.DAL.csproj", "{519B81F2-4938-4D77-9705-08318F75B15D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Common", "Project.Common\Project.Common.csproj", "{1B634D15-1E3E-46A4-BD15-3BA57E0BE85C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Common", "Project.Common\Project.Common.csproj", "{1B634D15-1E3E-46A4-BD15-3BA57E0BE85C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.BLL", "Project.BLL\Project.BLL.csproj", "{B4901A86-6F1D-44D6-80DA-8F819A561C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.BLL", "Project.BLL\Project.BLL.csproj", "{B4901A86-6F1D-44D6-80DA-8F819A561C8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.UI", "Project.UI\Project.UI.csproj", "{2705DA06-70A2-4EEB-89F0-94BBF79C5F46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.COREWEBUI", "Project.COREWEBUI\Project.COREWEBUI.csproj", "{AB8573C5-FC42-4311-ABA8-6C6A0FF58A4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{B4901A86-6F1D-44D6-80DA-8F819A561C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4901A86-6F1D-44D6-80DA-8F819A561C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4901A86-6F1D-44D6-80DA-8F819A561C8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2705DA06-70A2-4EEB-89F0-94BBF79C5F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2705DA06-70A2-4EEB-89F0-94BBF79C5F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2705DA06-70A2-4EEB-89F0-94BBF79C5F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2705DA06-70A2-4EEB-89F0-94BBF79C5F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8573C5-FC42-4311-ABA8-6C6A0FF58A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8573C5-FC42-4311-ABA8-6C6A0FF58A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8573C5-FC42-4311-ABA8-6C6A0FF58A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8573C5-FC42-4311-ABA8-6C6A0FF58A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

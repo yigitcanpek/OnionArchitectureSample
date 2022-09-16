@@ -26,7 +26,7 @@ namespace Project.DAL.Context
             builder.ApplyConfiguration(new ProductConfiguration());
             builder.ApplyConfiguration(new ProfileConfiguration());
             builder.ApplyConfiguration(new OrderDetailConfiguration());
-            builder.ApplyConfiguration(new OrderDetailConfiguration());
+            builder.ApplyConfiguration(new OrderConfiguration());
             base.OnModelCreating(builder);
         }
         public DbSet<AppUser> AppUsers { get; set; }

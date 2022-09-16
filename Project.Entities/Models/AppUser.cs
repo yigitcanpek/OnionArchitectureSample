@@ -22,7 +22,7 @@ namespace Project.Entities.Models
             CreatedDate = DateTime.Now;
             Status = DataStatus.Inserted;
         }
-        public virtual List<OrderDetail> OrderDetails { get; set; }
+        public virtual List<Order> Order { get; set; }
         public virtual AppUserProfile AppUserProfile { get; set; }
 
     }

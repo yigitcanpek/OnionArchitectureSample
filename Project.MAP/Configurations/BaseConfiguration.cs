@@ -16,6 +16,7 @@ namespace Project.MAP.Configirations
         public virtual void Configure(EntityTypeBuilder<T> builder)
         {
             builder.Property(x => x.CreatedDate).HasColumnName("Yaratılma Tarihi");
+            ;
         }
     }
 }

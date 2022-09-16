@@ -8,6 +8,7 @@ namespace Project.Entities.Models
 {
     public class Order:BaseEntity
     {
+        
         public string ShippedAddress { get; set; }
         public int? AppUserID { get; set; }
 
